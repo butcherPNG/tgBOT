@@ -8,7 +8,7 @@ import 'package:tg_bot/tg_bot.dart' as tg_bot;
 
 Future<void> main() async {
 
-  var BOT_TOKEN = '5956688136:AAEY69kYZgkrwq5HvnpDQ88a4yCuPLXMIsY';
+  var BOT_TOKEN = 'Token';
   final username = (await Telegram(BOT_TOKEN).getMe()).username;
   var teledart = TeleDart(BOT_TOKEN, Event(username!));
   final replyMarkup = ReplyKeyboardMarkup(
